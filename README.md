@@ -10,6 +10,8 @@ A Kayak.com like web travel reservation application using MERN stack | Apache Ka
 
 ## System Design
 
+![](readme-src/a.PNG)
+
 ### Technology stack
 
 ![](readme-src/2.png)
