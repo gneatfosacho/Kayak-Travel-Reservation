@@ -1,7 +1,6 @@
 # Kayak-Travel-Reservation
 A Kayak.com like web travel reservation application using MERN stack | Apache Kafka | Elasticsearch | Redis
 
-
 ## Goal
 
 * The goal is to build a distributed enterprise web application which enables users to search for Cars, Hotels and Flights and make a reservation. Also login/signup along with editing user preferences and viewing travel history. As well as create a Admin side which can be used to add/edit/delete Flights, Cars and Hotels and also be able to delete the user and view the analytics/statistics.
@@ -137,3 +136,29 @@ A Kayak.com like web travel reservation application using MERN stack | Apache Ka
 > 2. With kafka but no connection pooling and redis.
 > 3. With kafka and connection pooling but no redis.
 > 4. With kafka, connection pooling and redis.
+
+## Steps for Project Execution :
+
+Install Apache Kafka
+
+Run Apache Kafka & Zookeeper
+
+Install Redis Server
+
+Run Redis Server
+
+Client & Server Install:
+```
+cd kayak_kafka_backend
+npm install
+npm start
+
+cd kayak_kafka_frontend
+npm install
+npm start
+
+cd kayak_react
+npm install
+npm start
+```
+
